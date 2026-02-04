@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+  <h2>HR Panel</h2>
+  <a href="index.html" class="active-link">Dashboard</a>
+  <a href="employees.html">Employees</a>
+  <a href="attendance.html">Attendance</a>
+  <a href="payroll.html">Payroll</a>
+  <a href="reports.html">Reports</a>
+  <a href="settings.html">Settings</a>
+</div>
+
+<div class="main">
+
+<!-- Header Row -->
+<div class="header">
+  <h1>Dashboard</h1>
+  <input class="search" placeholder="Search employees...">
+</div>
+
+<!-- Welcome Banner -->
+<div class="card" style="margin-bottom:20px;">
+  <h2>Welcome, HR Admin 👋</h2>
+  <p>Here is your employee management overview for today.</p>
+</div>
+
+<!-- Stats Cards -->
+<div class="cards">
+
+  <div class="card">
+    <h3>Total Employees</h3>
+    <p style="font-size:28px;">124</p>
+  </div>
+
+  <div class="card">
+    <h3>Active Today</h3>
+    <p style="font-size:28px; color:#16a34a;">98</p>
+  </div>
+
+  <div class="card">
+    <h3>On Leave</h3>
+    <p style="font-size:28px; color:#f59e0b;">12</p>
+  </div>
+
+  <div class="card">
+    <h3>New Joiners</h3>
+    <p style="font-size:28px; color:#2563eb;">6</p>
+  </div>
+
+</div>
+
+<!-- Quick Actions -->
+<div class="table-box">
+<h2>Quick Actions</h2>
+<br>
+
+<button class="btn view">Add Employee</button>
+<button class="btn edit">Generate Report</button>
+<button class="btn view">Process Payroll</button>
+
+</div>
+
+<!-- Recent Activity -->
+<div class="table-box">
+<h2 style="margin-bottom:10px;">Recent Employee Activity</h2>
+
+<table>
+<tr>
+  <th>Name</th>
+  <th>Action</th>
+  <th>Time</th>
+</tr>
+
+<tr>
+  <td>Zulekha Shaikh</td>
+  <td>Added new employee</td>
+  <td>10:15 AM</td>
+</tr>
+
+<tr>
+  <td>Rahul Mehta</td>
+  <td>Updated attendance</td>
+  <td>11:40 AM</td>
+</tr>
+
+<tr>
+  <td>Sneha Iyer</td>
+  <td>Processed payroll</td>
+  <td>01:05 PM</td>
+</tr>
+
+</table>
+</div>
+
+</div>
+
+</body>
+</html>
